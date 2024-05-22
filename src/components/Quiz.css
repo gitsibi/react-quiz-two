@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.quiz-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #473A8D;
+}
+
+.flex{
+  height: 80%;
+  width: 85%;
+  background-color: #F8F8F8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading{
+  margin: 40px 0 20px 0;
+}
+
+.num{
+  width: 100%;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.Ques{
+  margin: 20px;
+  font-size: 20px;
+}
+
+.optBox{
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+}
+
+.opt{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  background-color: #1EA1F1;
+  color:white;
+}
+
+.Btn{
+  margin: 50px;
+  width:20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  margin: 0 10px;
+  height: auto;
+  width: auto;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 0px;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid black;
+}
+
+
+.prev{
+  background-color: #1EA1F1;
+}
+
+.nxt{
+  background-color: #008001;
+}
+
+.quit{
+  background-color: #FF0000;
+}
